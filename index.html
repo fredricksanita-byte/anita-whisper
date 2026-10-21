@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anita Whisper</title>
+<meta name="description" content="Don't type. Just talk. Free voice typing for Windows that runs on your own computer.">
+<link rel="icon" href="anita_whisper.png">
+<style>
+  :root {
+    --black: #0b0b0b; --panel: #151515; --line: #2a2a2a;
+    --red: #e10600; --red-dim: #5a0200; --white: #f5f5f5; --grey: #9a9a9a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--black); color: var(--white);
+    font: 17px/1.6 "Segoe UI", system-ui, -apple-system, sans-serif;
+  }
+  a { color: var(--red); }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
+
+  header { padding: 22px 0; border-bottom: 1px solid var(--line); }
+  header .wrap { display: flex; align-items: center; gap: 12px; }
+  header img { width: 34px; height: 34px; }
+  .brand { font-weight: 700; letter-spacing: .12em; color: var(--red); font-size: 14px; }
+
+  .hero { padding: 72px 0 56px; text-align: center; }
+  h1 { font-size: clamp(40px, 8vw, 76px); line-height: 1.02; margin: 0 0 18px; letter-spacing: -.02em; }
+  h1 span { color: var(--red); }
+  .lead { color: var(--grey); font-size: 20px; max-width: 620px; margin: 0 auto 34px; }
+
+  .btn {
+    display: inline-flex; align-items: center; gap: 10px;
+    background: var(--red); color: var(--white); text-decoration: none;
+    font-weight: 700; font-size: 18px; padding: 16px 30px; border-radius: 999px;
+  }
+  .btn:hover { filter: brightness(1.1); }
+  .btn svg { width: 20px; height: 20px; }
+  .meta { color: var(--grey); font-size: 14px; margin-top: 14px; }
+
+  .bubble {
+    display: inline-flex; align-items: center; gap: 10px; margin-top: 48px;
+    border: 2px solid var(--red); background: var(--black); padding: 9px 16px; border-radius: 6px;
+  }
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--red); animation: pulse 1s infinite alternate; }
+  .bubble b { color: var(--red); font-size: 12px; letter-spacing: .08em; }
+  @keyframes pulse { to { background: var(--red-dim); } }
+  @media (prefers-reduced-motion: reduce) { .dot { animation: none; } }
+
+  section { padding: 56px 0; border-top: 1px solid var(--line); }
+  h2 { font-size: 30px; margin: 0 0 26px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 22px; }
+  .card h3 { margin: 0 0 8px; font-size: 18px; }
+  .card p { margin: 0; color: var(--grey); }
+  .num { color: var(--red); font-weight: 800; font-size: 28px; line-height: 1; margin-bottom: 10px; }
+  kbd {
+    background: var(--white); color: var(--black); border-radius: 4px;
+    padding: 1px 7px; font: 700 14px "Segoe UI", sans-serif;
+  }
+
+  details { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px 20px; margin-bottom: 10px; }
+  summary { cursor: pointer; font-weight: 600; }
+  details p { color: var(--grey); margin: 10px 0 0; }
+
+  footer { padding: 30px 0 50px; border-top: 1px solid var(--line); color: var(--grey); font-size: 14px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <img src="anita_whisper.png" alt="">
+    <span class="brand">ANITA WHISPER</span>
+  </div>
+</header>
+
+<main>
+  <div class="hero wrap">
+    <h1>Don't type.<br><span>Just talk.</span></h1>
+    <p class="lead">Press F8, say what you want to write, press F8 again. Your words appear in any email, text box or document. Free, private, and it runs on your own computer.</p>
+    <a class="btn" href="https://github.com/fredricksanita-byte/anita-whisper/releases/latest/download/Anita-Whisper-Setup.exe">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M6 11l6 6 6-6M4 21h16"/></svg>
+      Download for Windows
+    </a>
+    <p class="meta">Free &middot; Windows 10 or 11 &middot; about 200 MB &middot; version 1.0.0</p>
+    <div><div class="bubble"><span class="dot"></span><b>ANITA WHISPER</b><span>Listening... press F8 when done</span></div></div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <h2>How it works</h2>
+      <div class="grid">
+        <div class="card"><div class="num">1</div><h3>Click where you type</h3><p>An email, a text message box, a Word document, a CRM note. Anywhere.</p></div>
+        <div class="card"><div class="num">2</div><h3>Press <kbd>F8</kbd> and talk</h3><p>A small black-and-red bubble shows it's listening. Talk the way you normally would.</p></div>
+        <div class="card"><div class="num">3</div><h3>Press <kbd>F8</kbd> again</h3><p>A few seconds later your words are typed right where your cursor is.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Why Anita Whisper</h2>
+      <div class="grid">
+        <div class="card"><h3>Private</h3><p>Your voice is turned into text on your computer. Nothing you say is sent over the internet.</p></div>
+        <div class="card"><h3>Free, no account</h3><p>No sign-up, no subscription, no login. Install it and press F8.</p></div>
+        <div class="card"><h3>Spells your names right</h3><p>Add the names, companies and towns you say often, and it spells them your way.</p></div>
+        <div class="card"><h3>Works offline</h3><p>Once it's installed, it works without an internet connection.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Questions</h2>
+      <details>
+        <summary>Windows says "Windows protected your PC". Is it safe?</summary>
+        <p>That message appears for new apps that aren't from a big publisher yet. Click <b>More info</b>, then <b>Run anyway</b>. Only download Anita Whisper from this page.</p>
+      </details>
+      <details>
+        <summary>How do I close it or open it again?</summary>
+        <p>Press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F8</kbd> to close it. To open it again, double-click the Anita Whisper icon on your desktop or find it in the Start menu. During install you can also choose to start it with Windows.</p>
+      </details>
+      <details>
+        <summary>How do I teach it my names and places?</summary>
+        <p>Start menu &rarr; Anita Whisper &rarr; "My words to spell correctly". Put one name per line, save the file, then restart Anita Whisper.</p>
+      </details>
+      <details>
+        <summary>How fast is it?</summary>
+        <p>On a typical laptop, 10 seconds of talking takes about 5 to 7 seconds to write out. Faster computers are quicker.</p>
+      </details>
+      <details>
+        <summary>Does it work on Mac?</summary>
+        <p>Not yet. Anita Whisper is for Windows 10 and 11.</p>
+      </details>
+      <details>
+        <summary>How do I uninstall it?</summary>
+        <p>Windows Settings &rarr; Apps &rarr; Installed apps &rarr; Anita Whisper &rarr; Uninstall.</p>
+      </details>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    &copy; 2026 Anita Fredricks. Built with open-source software: OpenAI Whisper, faster-whisper, CTranslate2 and others (MIT/BSD licenses).
+  </div>
+</footer>
+</body>
+</html>

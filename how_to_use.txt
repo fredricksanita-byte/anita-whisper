@@ -1,0 +1,22 @@
+ANITA WHISPER - Don't type. Just talk.
+
+HOW TO USE
+1. Click where you want to type (an email, a text box, a document).
+2. Press F8. A black-and-red bubble says "Listening...".
+3. Talk normally.
+4. Press F8 again. Your words are typed where your cursor is.
+
+Close Anita Whisper:  press Ctrl + Alt + F8
+Open it again:        double-click the Anita Whisper icon, or find it in the Start menu.
+
+SPELL YOUR NAMES RIGHT
+Start menu > Anita Whisper > "My words to spell correctly".
+Add names, companies and places you say often, one per line,
+save the file, then restart Anita Whisper.
+
+PRIVATE BY DESIGN
+Your voice is turned into text on this computer. Nothing you say is sent
+over the internet, and no account is needed.
+
+NEEDS
+Windows 10 or 11 and a microphone.

@@ -1,0 +1,14 @@
+Anita Whisper is built with the following open-source software:
+
+- Whisper speech model (OpenAI) - MIT License
+- faster-whisper (SYSTRAN) and the faster-whisper-base.en model conversion - MIT License
+- CTranslate2 (OpenNMT) - MIT License
+- ONNX Runtime (Microsoft) - MIT License
+- Silero VAD - MIT License
+- NumPy - BSD License
+- sounddevice / PortAudio - MIT License
+- keyboard (BoppreH) - MIT License
+- pyperclip (Al Sweigart) - BSD License
+- Python - Python Software Foundation License
+
+Full license texts are available from each project's website.
